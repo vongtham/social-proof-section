@@ -23,9 +23,6 @@ body {
     display: grid;
     place-content: center;
     min-height: 100vh;
-    background-image: url('images/bg-pattern-top-mobile.svg'), url('images/bg-pattern-bottom-mobile.svg');
-    background-repeat: no-repeat, no-repeat;
-    background-image: top 0 bottom 0;
 }
 
 p, span {
@@ -125,11 +122,7 @@ span {
 }
 
 @media screen and (min-width: 720px) {
-
-    body {
-        background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
-    }
-
+    
     .group-items {
         display: flex;
         justify-content: space-between;
